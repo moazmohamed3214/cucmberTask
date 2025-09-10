@@ -21,7 +21,6 @@ public class BaseTest {
     public void close() {
         if (driver != null) {
             driver.quit();
-            driver = null;
         }
     }
 }
