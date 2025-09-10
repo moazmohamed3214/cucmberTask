@@ -11,11 +11,11 @@ public class BaseTest {
     @BeforeTest
     public void setUp()
     {
-        if (driver==null) {
+
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.get("https://admin-demo.nopcommerce.com/login");
-        }
+
     }
     @AfterTest
     public void close() {
